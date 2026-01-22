@@ -1,5 +1,7 @@
 # OA-Stereo: Self-Supervised Opti-Acoustic Stereo for Robust 3D Perception of Underwater Vehicles
 
+This work has been accepted by **IEEE Robotics and Automation Letters (RA-L)**, 2025.
+
 ## Introduction
 <div align="center">
     <img alt="image" src="https://github.com/user-attachments/assets/4fb909c1-7422-42fa-97be-db6e206e38c0" width="100%" />
@@ -99,7 +101,16 @@ A custom dataset collected based on the [DAVE project](https://github.com/Field-
 - **Validation**: Use the script `scripts/valid.sh` to evaluate the model on validation datasets.
 - **Training**: Use the script `scripts/train.sh` to train the model from scratch.
 
+## Citation
 
-## Acknowledgments
+If you find this work useful for your research, please consider citing:
 
+```bibtex
+@article{cao2025oa,
+  title={OA-Stereo: Self-Supervised Opti-Acoustic Stereo for Robust 3D Perception of Underwater Vehicles},
+  author={Cao, Yaozhong and Bai, Xuejian and Chu, Hongfei and Wang, Shuo and Tan, Min and Wang, Yu},
+  journal={IEEE Robotics and Automation Letters},
+  year={2025},
+  publisher={IEEE}
+}
 Part of the code is adopted from previous works: [SAFT-Stereo](https://github.com/c237814486/SAFT-Stereo), [CoEx](https://github.com/antabangun/coex), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [UWStereo](https://github.com/kskin/UWStereo), [Monodepth2](https://github.com/nianticlabs/monodepth2)
